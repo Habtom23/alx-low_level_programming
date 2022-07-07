@@ -1,4 +1,4 @@
-#include "holberton.h"
+#include "main.h"
 #include <stdio.h>
 
 /**
@@ -6,7 +6,7 @@
  * @n : The number of lines using '\' characters to use
  * Return: Void.
  */
-void print_diagonal(int n)
+void print_diagonal(int n);
 {
 	int i;
 	int spaces;
