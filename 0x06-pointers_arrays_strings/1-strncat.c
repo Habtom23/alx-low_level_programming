@@ -24,16 +24,3 @@ char *_strncat(char *dest, char *src, int n)
 	return (dest);
 }
 
-#include <string.h>
-
-/**
- * _strncat -  function that concatenates two strings.
- * @src: cadena a copiar
- * @dest: destino de la cadena.
- * @n: number.
- * Return: dest.
- */
-
-char *_strncat(char *dest, char *src, int n)
-{
-	int index = st
